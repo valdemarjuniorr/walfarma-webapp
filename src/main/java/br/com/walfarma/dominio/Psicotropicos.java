@@ -9,6 +9,7 @@ import javax.persistence.ManyToOne;
 import javax.validation.constraints.Size;
 import java.util.Date;
 import javax.persistence.Temporal;
+import javax.persistence.Column;
 import javax.persistence.TemporalType;
 import org.springframework.format.annotation.DateTimeFormat;
 

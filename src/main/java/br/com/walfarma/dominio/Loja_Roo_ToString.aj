@@ -9,6 +9,7 @@ privileged aspect Loja_Roo_ToString {
     
     public String Loja.toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Nome: ").append(getNome()).append(", ");
         sb.append("Id: ").append(getId());
         return sb.toString();
     }

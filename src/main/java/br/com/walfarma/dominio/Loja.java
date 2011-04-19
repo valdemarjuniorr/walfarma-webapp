@@ -13,5 +13,9 @@ public class Loja {
 
     @NotNull
     @Column(unique = true)
+    private String nome;
+
+    @NotNull
+    @Column(unique = true)
     private Long id;
 }

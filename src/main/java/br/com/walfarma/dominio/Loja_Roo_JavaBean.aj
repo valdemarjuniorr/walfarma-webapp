@@ -4,8 +4,17 @@
 package br.com.walfarma.dominio;
 
 import java.lang.Long;
+import java.lang.String;
 
 privileged aspect Loja_Roo_JavaBean {
+    
+    public String Loja.getNome() {
+        return this.nome;
+    }
+    
+    public void Loja.setNome(String nome) {
+        this.nome = nome;
+    }
     
     public Long Loja.getId() {
         return this.id;

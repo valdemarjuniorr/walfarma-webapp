@@ -18,7 +18,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 @RooEntity
 public class Estoque {
 
-    @NotNull
+	@NotNull
     @Column(unique = true)
     private Long id;
 
