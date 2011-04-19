@@ -576,3 +576,4 @@ perform tests
 field number --type java.lang.Long id --notNull --unique 
 perform tests
 perform tests
+perform clean
