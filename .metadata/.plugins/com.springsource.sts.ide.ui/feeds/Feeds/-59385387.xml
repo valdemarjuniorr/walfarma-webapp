@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>SpringOne 2GX 2010 Tech Talk: Introduction to Spring.NET for Java Developers</title>
+ <link>http://www.springsource.org/node/3104</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:313px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.infoq.com/presentations/Introduction-to-Spring-NET-for-Java-Developers&quot;&gt;&lt;img height=&quot;212&quot; alt=&quot;SpringOne 2GX 2010 Tech Talk: Introduction to Spring.NET for Java Developers&quot; width=&quot;313&quot; border=&quot;0&quot; src=&quot;/files/SpringOne2GX2010MarkPollack.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+In a great follow-up to some of the &lt;a href=&quot;http://www.springsource.org/node/3087&quot;&gt;many&lt;/a&gt; &lt;a href=&quot;http://www.springsource.org/node/3085&quot;&gt;recent&lt;/a&gt; &lt;a href=&quot;http://www.springsource.org/node/3086&quot;&gt;announcements&lt;/a&gt; about &lt;a href=&quot;http://springframework.net/&quot;&gt;Spring.NET&lt;/a&gt;, &lt;a href=&quot;http://www.infoq.com/SpringOne_2010&quot;&gt;InfoQ&lt;/a&gt; has posted a new video from SpringOne 2GX 2010 providing an &lt;a href=&quot;http://www.infoq.com/presentations/Introduction-to-Spring-NET-for-Java-Developers&quot;&gt;Introduction to Spring.NET for Java Developers&lt;/a&gt;. In this presentation &lt;a href=&quot;http://blog.springsource.com/author/mpollack/&quot;&gt;Mark Pollack&lt;/a&gt; and Stephen Bohlen discuss Spring.NET, comparing it with Spring for Java, explaining how Java-.NET interoperability works, what tools are available and .NET features such as LINQ and MVC. 
+&lt;/p&gt;
+
+&lt;p&gt;Mark and Stephen cover the following topics with concrete code examples:
+&lt;ul&gt;
+ &lt;li&gt;Design and goals of Spring.NET&lt;/li&gt;
+ &lt;li&gt;Feature tour and comparison to Spring Java&lt;/li&gt;
+ &lt;li&gt;Java/.NET interoperability&lt;/li&gt;
+ &lt;li&gt;.NET versions of Spring AMQP, Spring Gemfire, Spring Integration, RestTemplate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Once again, many thanks to InfoQ for &lt;a href=&quot;http://www.infoq.com/SpringOne_2010&quot;&gt;covering SpringOne 2GX 2010&lt;/a&gt; and providing this outstanding presentations to the community.
+&lt;/p&gt;
+
+
+</description>
+ <comments>http://www.springsource.org/node/3104#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 15 Apr 2011 17:55:06 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3104 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Roo 1.1.3 Released</title>
+ <link>http://www.springsource.org/node/3103</link>
+ <description>&lt;p&gt;We’re happy to announce the availability of &lt;a href=&quot;http://www.springsource.org/roo/&quot;&gt;Spring Roo&lt;/a&gt; 1.1.3 (&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Roo&quot;&gt;download here&lt;/a&gt;). Spring Roo is a rapid application development tool for Java, allowing you to create full enterprise applications in just minutes. This new release focuses on extensive support for &lt;a href=&quot;http://www.cloudfoundry.org/&quot;&gt;Cloud Foundry&lt;/a&gt;, VMware&#039;s open source PaaS service and platform.&lt;/p&gt;
+&lt;p&gt;The new release features &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10340&amp;amp;version=11707&quot;&gt;120 improvements&lt;/a&gt; since the 1.1.2 release. Some of the highlights include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Productivity in the cloud:&lt;/strong&gt; As mentioned above, Roo now provides broad &lt;a href=&quot;https://jira.springsource.org/browse/ROO-2324&quot;&gt;Cloud Foundry integration&lt;/a&gt;. With Cloud Foundry and Roo you can build normal Java-based applications (complete with normal MySql persistence etc) and have these hosted in our groundbreaking new developer cloud. The Roo integration allows you to build, deploy and manage &lt;a href=&quot;http://www.cloudfoundry.org/&quot;&gt;Cloud Foundry&lt;/a&gt; applications directly from Roo shell. Learn more in the separate &lt;a href=&quot;http://blog.springsource.com/2011/04/12/roo-cloud-foundry-productivity-in-the-cloud/&quot;&gt;announcement post&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shell usability:&lt;/strong&gt; There have been many usability improvements made in this new release. Apple Terminal users now have the &lt;a href=&quot;https://jira.springsource.org/browse/ROO-2283&quot;&gt;full Roo shell experience&lt;/a&gt;, including “flash” message support. We’ve also improved code-assist &lt;a href=&quot;https://jira.springsource.org/browse/ROO-2310&quot;&gt;improved code assist&lt;/a&gt; in this release.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Primary key enhancements:&lt;/strong&gt; You can now use &lt;a href=&quot;https://jira.springsource.org/browse/ROO-2070&quot;&gt;composite primary keys&lt;/a&gt; with the Data-on-Demand and Integration Test features, allowing automatic testing of a wider range of application entities (this will of particular benefit to those using Roo’s &lt;a href=&quot;http://www.springsource.org/roo/guide?w=base-dbre&quot;&gt;incremental database reverse engineering&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Process improvements&lt;/strong&gt;: The Roo project now operates a &lt;a href=&quot;https://roobuild.springsource.org/&quot;&gt;continuous integration&lt;/a&gt; build server so that you can enjoy the latest &lt;a href=&quot;http://static.springsource.org/downloads/nightly/snapshot-download.php?project=ROO&quot; target=&quot;&quot;&gt;snapshot builds&lt;/a&gt; of both Roo and its major add-ons.  This allows the community to more easily try out new fixes and features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As usual, we’ve updated the &lt;a href=&quot;http://www.springsource.org/roo/guide?w=upgrade#upgrade-1.1.3.RELEASE&quot;&gt;upgrade notes&lt;/a&gt; to help you move from any prior Roo version to this new release. These notes as well as the &lt;a href=&quot;http://www.springsource.org/roo/guide&quot;&gt;reference guide&lt;/a&gt; are also included in the &lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Roo&quot;&gt;download ZIP&lt;/a&gt;. Please note Roo 1.1.3 is also included in &lt;a href=&quot;http://www.springsource.com/downloads/sts&quot;&gt;SpringSource Tool Suite&lt;/a&gt; (STS) 2.6.1.SR1.&lt;/p&gt;
+&lt;p&gt;Spring Roo has a very active community and responsive development team, so if you have any questions on this new release, please feel free to ask the &lt;a href=&quot;http://twitter.com/#!/SpringRoo/roo-team/members&quot;&gt;Spring Roo engineering team&lt;/a&gt; on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=67&quot;&gt;Community Forum&lt;/a&gt;. You&#039;ll also find us on Twitter - either follow &lt;a href=&quot;http://twitter.com/SpringRoo&quot;&gt;@SpringRoo&lt;/a&gt; or just include #SpringRoo in your tweets.&lt;/p&gt;
+&lt;p&gt;We hope you enjoy this new release.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3103#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 15 Apr 2011 06:43:49 +0000</pubDate>
+ <dc:creator>James Tyrrell</dc:creator>
+ <guid isPermaLink="false">3103 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring.NET REST Client 1.0.0 is now Available</title>
+ <link>http://www.springsource.org/node/3102</link>
+ <description>Dear Spring Community, &lt;br&gt;
+            &lt;br&gt;
+We are pleased to announce that Spring.NET REST Client 1.0.0 is now available.&lt;br&gt;
+            &lt;br&gt;
+            &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;/span&gt;&lt;a
+ href=&quot;http://www.springsource.com/download/community?project=Spring.NET%20REST%20Client&quot; target=&quot;_blank&quot;&gt;Download&lt;/a&gt;
+| &lt;a href=&quot;http://www.vmware.com/support/services/developer.html&quot; target=&quot;_blank&quot;&gt;Support&lt;/a&gt; | &lt;a href=&quot;http://www.springframework.net/rest/doc-latest/reference/html/&quot; target=&quot;_blank&quot;&gt;Documentation&lt;/a&gt;
+|&amp;nbsp;&lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_blank&quot;&gt;Community&lt;/a&gt;&lt;br&gt;
+
+&lt;p&gt;Spring.NET REST Client is a lightweight library (~60k-80k, depending on your target platform) that has no direct dependency on the Spring.NET Framework.
+It can be used either by itself in isolation or in combination with the remainder of the Spring.NET Framework to suit different usage scenarios.&lt;/p&gt;
+
+&lt;p&gt;The 1.0.0 release of Spring.NET REST Client contains:&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li class=&quot;newslist&quot;&gt;A RestTemplate class for client-side access to RESTful services&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;A set of HTTP message converters used to marshal objects into the HTTP request body and to unmarshal any response back into an object.&lt;/li&gt;
+			&lt;/ul&gt;
+
+&lt;p&gt;Spring.NET REST Client supports all of the following .NET Runtime environments&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li class=&quot;newslist&quot;&gt;.NET 2.0&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;.NET Client Profile 3.5 and 4.0&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Silverlight 3.0 and 4.0&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Windows Phone 7.0&lt;/li&gt;
+			&lt;/ul&gt;
+&lt;p&gt;This project is hosted at &lt;a href=&quot;https://github.com/SpringSource/spring-net-rest&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, we encourage &lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_blank&quot;&gt;feedback from the community&lt;/a&gt; on this and all aspects of Spring.NET!&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3102#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 14 Apr 2011 16:24:17 +0000</pubDate>
+ <dc:creator>sbohlen</dc:creator>
+ <guid isPermaLink="false">3102 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This week in Spring (Very Cloudy this Spring!): April 12th, 2011: Cloud Edition  </title>
+ <link>http://www.springsource.org/node/3099</link>
+ <description>&lt;P&gt; Did I mention that we&#039;re going to talk Spring and clouds this week?   
+ &lt;/p&gt;  
+ 
+
+&lt;p&gt;Today&#039;s webinar introducing CloudFoundry, called &lt;a href=&quot;http://www.springsource.org/node/3082&quot;&gt;&quot;Spring into the cloud!&quot;&lt;/a&gt;  - went off without a hitch and delivered on its promise:  &quot;Spring has already simplified enterprise Java development. Next up is cloud development&quot;!
+
+Cloud Foundry is an open-source (Apache 2 licensed), public &lt;em&gt;and&lt;/em&gt; private Platform-as-a-Service offering from VMware that features built-in support for deploying Spring  and Java-based applications, Ruby on Rails applications and Node.js applications. Once deployed, applications may take advantage of support for cloud-provisioned MySQL, Redis and MongoDB services that may be bound to a provisioned application with ease.
+ 
+You can watch the full introductory webinar  on &lt;a href=&quot;http://www.cloudfoundry.com&quot;&gt;CloudFoundry.com&lt;/a&gt;, where you may also find more information about participation in the beta program. Developers looking to get their hands dirty and see  how the whole thing comes together are encouraged to visit &lt;a href=&quot;http://www.cloudfoundry.org&quot;&gt;CloudFoundry.org&lt;/a&gt;, where they can find information about the bits and links to &lt;a href=&quot;http://www.github.com/CloudFoundry&quot;&gt;the source code&lt;/a&gt; and other resources.
+
+Cloud Foundry, as Rod Johnson &lt;a href=&quot;http://blog.springsource.com/2011/04/12/launching-cloud-foundry/&quot;&gt;so eloquently articulates in his blog,&lt;/a&gt; represents &lt;a href=&quot;http://www.github.com/VMWare&quot;&gt;another&lt;/a&gt; &lt;a href=&quot;http://www.github.com/SpringSource&quot;&gt;strong&lt;/a&gt; commitment to open source at VMWare. 
+ 
+While other services - like RabbitMQ and Gemfire - are forthcoming, developers need not wait - the entire platform is pluggable: you can add support for any framework or environment you&#039;d like! Indeed, the cloud itself is portable, and can be run on your local laptop, in a bedroom cluster, in your datacenter (secured with armed guards, or not, as VMware CEO Paul Maritz joked!) or on a cloud vendor&#039;s IaaS, like vCloud or EC2.
+ &lt;/p&gt;  
+
+
+&lt;p&gt; 
+   Naturally, all of this excitement is not without accompanying guidance from the SpringSource R&amp;D team which today alone published four new blogs on the subject. More are, of course, coming, so stay tuned. With that,  let&#039;s get started! 
+&lt;/p&gt;
+
+ &lt;OL&gt;  
+
+
+  &lt;Li&gt;First, SpringSource founder and GM Rod Johnson kicked things off with &lt;a href=&quot;http://blog.springsource.com/2011/04/12/launching-cloud-foundry/ &quot;&gt;a blog heralding the new cloud offering&lt;/a&gt;.
+ This should be your first stop on the road to the cloud! 
+&lt;/li&gt;  
+   
+  &lt;li&gt;
+Mark Fisher chimed in with &lt;a href=&quot;http://blog.springsource.com/2011/04/12/cloud-foundry-for-spring-developers/&quot;&gt;Cloud Foundry for Spring Developers&lt;/a&gt;, which illustrates the development approach for stock Spring applications. In the post, the mechanism for provisioning  CloudFoundry applications with cloud-resources like DataSources is demonstrated along with a feature in the forthcoming Spring 3.1 release called application profiles. 
+&lt;/li&gt;
+
+&lt;LI&gt;
+In the Grails camp, Peter Ledbrook - Grails developer advocate and all-around great guy - wrote up the &lt;a href=&quot;http://blog.springsource.com/2011/04/12/one-step-deployment-with-grails-and-cloud-foundry/&quot;&gt;CloudFoundry and Grails&lt;/a&gt; story. Fascinating read, check it out!
+&lt;/li&gt;
+
+  &lt;li&gt;James Tyrrell then chimed in with information on using &lt;a href=&quot;http://www.springsource.org/roo&quot;&gt;Spring Roo&lt;/a&gt; with CloudFoundry.    &lt;a href=&quot;http://blog.springsource.com/2011/04/12/roo-cloud-foundry-productivity-in-the-cloud/&quot;&gt;His post demonstrates&lt;/a&gt; the continuing ease of use that Spring developers using Spring Roo, no matter what the target platform!  
+&lt;/lI&gt; 
+
+&lt;LI&gt;  
+During the live webinar, there was a lot of activity and discussion about &lt;a href=&quot;http://www.twitter.com/CloudFoundry&quot;&gt;Cloud Foundry on Twitter (@CloudFoundry)&lt;/a&gt;. If you missed it and you are on Twitter, you might check out &lt;a href=&quot;http://www.twitter.com/starbuxman&quot;&gt;my stream (@starbuxman)&lt;/a&gt; for the flurry of activity during the webinar, &lt;a href=&quot;http://www.twitter.com/SpringRod&quot;&gt;Rod Johnson&#039;s stream (@springrod)&lt;/a&gt; who also fielded queestions and talked about the technology, and the comments from the hitherto-stealthy CloudFoundry developer advocate, &lt;a href=&quot;http://www.twitter.com/mccrory&quot;&gt;Dave McCrory (@mccrory)&lt;/a&gt;.
+&lt;/LI&gt;
+ 
+&lt;li&gt;For those lucky community members living in Europe, the S2G Forums Series was announced for &lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-26-2011-amsterdam&quot;&gt;Amsterdam (May 26th)&lt;/a&gt; and &lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-31-2011-london&quot;&gt;London (May 31st)&lt;/a&gt;. There will be tons of great sessions about Spring, Groovy and Grails as well as talks focused specifically on the new CloudFoundry capabilities. Be sure to &lt;a href=&quot;http://www.springsource.org/s2gforum2011&quot;&gt;register for the event&lt;/a&gt; closest to you. &lt;/li&gt; 
+
+&lt;li&gt;
+&lt;a href=&quot;http://www.springsource.org/node/3089&quot;&gt;Thomas Risberg&lt;/a&gt; announced the latest and greatest  Spring Data Document with MongoDB Support (version 1.0.0.M2) has been released. The new release features many 
+fixes and new features, including updated Java  &lt;CODE&gt;@Configuration&lt;/CODE&gt; support, enhanced querying, and updated &lt;code&gt;MongoTemplate&lt;/code&gt; APIs.
+ &lt;/li&gt;   
+
+&lt;LI&gt; Costin Leau announced that the latest release of &lt;a href=&quot;http://www.springsource.org/node/3084&quot;&gt;the Spring Data Key Value project supporting Redis and Riak&lt;/a&gt;, version 1.0.0.M3, has been released. Check it out! 
+&lt;/li&gt;
+ 
+&lt;li&gt;&lt;a href=&quot;http://www.springframework.net&quot;&gt;The Spring.NET&lt;/a&gt; community enjoyed not one, but &lt;em&gt;three&lt;/em&gt; new releases and announcements!  The first bit of news is that the Spring.NET 1.3.1 packages have now been made available on the NuGet Package Managment System. This release has a special convention - where packages are suffixed with &quot;.Debug&quot; if they contain Debug information - and otherwise have no suffix if they are regular builds.  This is the first step in a process, and at the moment, only &lt;code&gt;Spring.Core(.Debug)&lt;/code&gt; and &lt;code&gt;Spring.Aop(.Debug)&lt;/code&gt; are available. 
+ &lt;/li&gt; 
+ 
+&lt;li&gt;&lt;a href=&quot;http://www.springframework.net&quot;&gt;The Spring.NET Visual Studio 2010 Extension&lt;/a&gt;, version 1.0.0, is now available. This extension provides intellisense support for the following areas when editing Spring XML configuration files: type completion, property name completion, constructor argument name completion, and property value completion for properties of type &quot;Type,&quot; &quot;Enum&quot; and &quot;Boolean.&quot;&lt;/a&gt; 
+&lt;/li&gt;
+ 
+&lt;li&gt;&lt;a href=&quot;Http://www.springframework.net&quot;&gt;The Spring.NET&lt;/a&gt; project released  &lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20CodeConfig%20for%20.NET&quot;&gt;Spring CodeConfig&lt;/a&gt;, which features a &lt;a href=&quot;http://www.springframework.net/codeconfig/doc-latest/reference/html/&quot;&gt;configuration approach&lt;/a&gt; similar to the &lt;code&gt;@Configuration&lt;/code&gt; approach available in Spring Java. 
+ &lt;/li&gt;
+
+  &lt;li&gt;&lt;a href=&quot;http://www.developer.com/java/ent/define-factories-in-spring-xml-using-method-injection.html&quot;&gt;Developer.com has a post&lt;/a&gt;  illustrating Spring XML-based method injection.  Very powerful stuff! Check it out!
+ &lt;/li&gt;
+
+  &lt;li&gt; &lt;a href=&quot;http://hillert.blogspot.com/2011/04/spring-integration-camellos-continued.html&quot;&gt;Gunnar Hillert has written a fantastic post on his first steps with  Spring Integration&lt;/a&gt;  from the perspective of somebody with experience in integration. His insights are revealing and the cool, working example he posted on GitHub is very cool, too!  Nice going, Gunnar!  Incidentally, this post is also on Dzone. If you like it, please  &lt;a href=&quot;http://www.dzone.com/links/rss/spring_integration_a_quick_example.html&quot;&gt;vote it up.&lt;/a&gt;
+  &lt;/li&gt;
+
+  &lt;LI&gt;Alex has written a cool post on (even the title has my vote!) on using the Spring &lt;code&gt;JdbcTemplate&lt;/code&gt; with &lt;a href=&quot;http://alexsotob.blogspot.com/2011/04/come-on-lets-twist-again-like-we-did.html&quot;&gt;QueryDSL.&lt;/a&gt; NB: this is &lt;em&gt;not&lt;/em&gt; the same thing as using the &lt;a href=&quot;http://www.springsource.org/node/3074&quot;&gt;recently released&lt;/a&gt; support for Spring Data JPA and QueryDSL which is altogether different. Very cool, though! 
+&lt;/LI&gt;
+</description>
+ <comments>http://www.springsource.org/node/3099#comments</comments>
+ <pubDate>Wed, 13 Apr 2011 00:22:45 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3099 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Launching Cloud Foundry - Open Platform as a Service</title>
+ <link>http://www.springsource.org/node/3094</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:300px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.cloudfoundry.com&quot;&gt;&lt;img height=&quot;300&quot; alt=&quot;Cloud Foundry&quot; width=&quot;300&quot; border=&quot;0&quot; src=&quot;/files/VMW-LGO-CloudFoundry-217-square-300x300.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Today marks the launch of VMware&#039;s &lt;a href=&quot;http://www.cloudfoundry.com&quot;&gt;Cloud Foundry&lt;/a&gt;, a new open source “Platform as a Service” (PaaS) from VMware allowing easy deployment of applications written using Spring, Rails and other modern frameworks. Cloud Foundry breaks new ground in PaaS through supporting a choice of programming models; a choice of services from VMware and third parties; a choice of clouds for deployment; and being delivered in open source.&lt;/p&gt;
+
+&lt;p&gt;Rod Johnson hosted a collection of open source thought leaders for the &lt;a href=&quot;http://www.vmware.com/go/apr12&quot;&gt;announcement event&lt;/a&gt; in Palo Alto and described the details behind Cloud Foundry in his &lt;a href=&quot;http://blog.springsource.com/2011/04/12/launching-cloud-foundry/&quot;&gt;latest blog&lt;/a&gt;. VMware CTO, Steve Herrod, also detailed how Cloud Foundry fits into the broader &lt;a href=&quot;http://blogs.vmware.com/console/2011/04/cloud-foundry-delivering-on-vmwares-open-paas-strategy.html&quot;&gt;VMware cloud strategy&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;CloudFoundry will be of great interest to the Spring Community because it is an open PaaS, not just open source, but also
+&lt;ul&gt;
+ &lt;li&gt;Open to multiple framework and developer communities including Spring, Grails, Node.js and Ruby on Rails.&lt;/li&gt;
+ &lt;li&gt;Open to multiple services including basic services such as a relational database as well as broader choices like Redis and MongoDB, and RabbitMQ.&lt;/li&gt;
+ &lt;li&gt;Open to a choice of underlying deployment destinations including a public cloud service at CloudFoundry.com as well as the capability to run on top of EC2 and other IaaS offerings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We invite the community to &lt;a href=&quot;http://cloudfoundry.com/signup&quot;&gt;sign up for a beta account&lt;/a&gt;, download the &lt;a href=&quot;https://github.com/cloudfoundry&quot;&gt;source code&lt;/a&gt; and get started with Cloud Foundry.
+&lt;/p&gt;
+
+
+</description>
+ <comments>http://www.springsource.org/node/3094#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 12 Apr 2011 16:23:07 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3094 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>S2G Forum 2011 Comes to Amsterdam and London</title>
+ <link>http://www.springsource.org/s2gforum2011</link>
+ <description>&lt;p&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-31-2011-london&quot;&gt;&lt;img src=&quot;/files/S2GForum_2011_BothLocations_1.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;The S2G Forum Series is returning for 2011 in &lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-26-2011-amsterdam&quot;&gt;Amsterdam&lt;/a&gt; and &lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-31-2011-london&quot;&gt;London&lt;/a&gt;.  This one day, multi-track, lecture-based forum gives developers, engineers and IT managers the latest information about modern enterprise application architecture, development practices, and cloud service capabilities. Presented by the technical thought leaders from &lt;a href=&quot;http://www.springsource.com&quot;&gt;SpringSource&lt;/a&gt;, the forum is comprised of three parallel session tracks.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;ul class=&quot;standard&quot;&gt;
+    &lt;li&gt;&lt;strong&gt;Essential Spring&lt;/strong&gt;: The sessions in this track cover how to use the latest developments in Spring technology, like Spring 3.1 and Spring Data, as well as build rich, multi-client platform web application, integrate enterprise systems, and how to get the most out cloud platforms for your Spring applications.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Production Systems&lt;/strong&gt;: Detailed discussions about optimal production use of Tomcat, how to intelligently virtualize Java workloads, design and build applications for incredible scalability and leverage cloud deployment platforms.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Groovy &amp;amp; Grails&lt;/strong&gt;: These talks provide an update on the latest versions of Groovy and Grails, practical information about tuning Grails for best performance and cloud platforms as well as a tutorial for creating domain specific languages with Groovy. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Be sure to register for the event nearest to you. &lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;table border=&quot;0&quot; width=&quot;80%&quot;&gt;
+&lt;tr&gt;
+ &lt;td width=&quot;40%&quot;&gt;&lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-26-2011-amsterdam&quot;&gt;&lt;strong&gt;Amsterdam&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;May 26th 2011&lt;br /&gt;NH Grand Hotel Krasnapolsky&lt;br /&gt;Cost per attendee is € 114&lt;br /&gt;&lt;a href=&quot;http://www.seeuthere.com/vm/springsourceamsterdam2011&quot;&gt;Register Now!&lt;/a&gt;&lt;/td&gt;
+ &lt;td width=&quot;40%&quot;&gt;&lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-31-2011-london&quot;&gt;&lt;strong&gt;London&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;May 31st 2011&lt;br /&gt;The London Hilton on Park Lane&lt;br /&gt;Cost per attendee is £ 99&lt;br /&gt;&lt;a href=&quot;http://www.seeuthere.com/vm/springsourcelondon2011&quot;&gt;Register Now!&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.springsource.org/s2gforum2011#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <enclosure url="http://www.springsource.org/files/S2GForum_2011_BothLocations_1.png" length="58045" type="image/png" />
+ <pubDate>Tue, 12 Apr 2011 02:09:22 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3093 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data Document with MongoDB Support 1.0.0.M2 Released</title>
+ <link>http://www.springsource.org/node/3089</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am pleased to announce that the second milestone release of the Spring Data Document 1.0 project with MongoDB support is now available!&lt;/p&gt;
+&lt;p&gt;The primary goal of the &lt;b&gt;Spring Data&lt;/B&gt; project is to make it easier to build Spring-powered applications that use new data access technologies such as non-relational databases, map-reduce frameworks, and cloud based data services.&lt;/p&gt;
+&lt;p&gt;The MongoDB module provides integration with the &lt;a href=&quot;http://www.mongodb.org&quot;&gt;MongoDB&lt;/a&gt; document database.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data&amp;amp;version=1.0.0.M2&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-document/docs/1.0.0.M2/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-document/docs/1.0.0.M2/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/data-document/docs/1.0.0.M2/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To learn more about the project, visit the Spring Data &lt;a href=&quot;http://www.springsource.org/spring-data/mongodb&quot;&gt;MongoDB Page&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;The changes and new features in Spring Data Document 1.0.0.M2 include:&lt;/p&gt;
+&lt;h4&gt;General&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring configuration support using Java based @Configuration classes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Core Data Access&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Persistence and mapping lifecycle events&lt;/li&gt;
+&lt;li&gt;GeoSpatial integration&lt;/li&gt;
+&lt;li&gt;[DATADOC-76] - Add support for findAndRemove to MongoTemplate/MongoOperations&lt;/li&gt;
+&lt;li&gt;[DATADOC-5] - Provide detailed mapping of Mongo errors onto Spring DAO exception&lt;/li&gt;
+&lt;li&gt;[DATADOC-51] - Fixed issue with exceptions thrown when authenticating multiple times for same DB instance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Querying&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;[DATADOC-72] - Add support for Mongo&#039;s $elemMatch and chained Criteria&lt;/li&gt;
+&lt;li&gt;[DATADOC-77] - Rename &quot;and&quot; method in Query to &quot;addCritera&quot;&lt;/li&gt;
+&lt;li&gt;[DATADOC-67] - Criteria API to support keywords for geo search&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Mapping&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature Rich Object Mapping integrated with Spring&#039;s Conversion Service&lt;/li&gt;
+&lt;li&gt;Annotation based mapping metadata but extensible to support other metadata formats&lt;/li&gt;
+&lt;li&gt;[DATADOC-60] - Add namespace support to setup a MappingMongoConverter&lt;/li&gt;
+&lt;li&gt;[DATADOC-33] - Introduce annotation to demarcate id field in a domain object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Repository&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;[DATADOC-47, DATACMNS-17] - Adapted new metamodel API&lt;/li&gt;
+&lt;li&gt;[DATADOC-46] - Added support for &#039;In&#039; and &#039;NotIn&#039; keyword&lt;/li&gt;
+&lt;li&gt;[DATADOC-49] - Fixed &#039;And&#039; and &#039;Or&#039; keywords&lt;/li&gt;
+&lt;li&gt;[DATADOC-41] - Added support for executing QueryDsl predicates&lt;/li&gt;
+&lt;li&gt;[DATADOC-69] - Let repository namespace pickup the default mapping context bean and allow configuration&lt;/li&gt;
+&lt;li&gt;[DATADOC-24] - Allow use of @Query annotation to define queries&lt;/li&gt;
+&lt;li&gt;[DATADOC-34] - Create indexes for columns that are mentioned in query methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Cross-Store&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;[DATADOC-48] - Cross-store persistance - support for JPA Entities with fields transparently persisted/retrieved using MongoDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Logging&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;[DATADOC-66] - Log4j log appender&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking forward to your feedback on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=80&quot;&gt;forum&lt;/a&gt; or in the &lt;a href=&quot;https://jira.springsource.org/browse/DATADOC&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3089#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Sat, 09 Apr 2011 23:28:16 +0000</pubDate>
+ <dc:creator>Thomas Risberg</dc:creator>
+ <guid isPermaLink="false">3089 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring.NET Visual Studio 2010 Extension 1.0.0 is now available</title>
+ <link>http://www.springsource.org/node/3087</link>
+ <description>Dear Spring Community, &lt;br&gt;
+            &lt;br&gt;
+We are pleased to announce that the Spring.NET Visual Studio 2010 Extension 1.0.0 is now available.&lt;br&gt;
+            &lt;br&gt;
+            &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;/span&gt;&lt;a
+ href=&quot;http://www.springsource.com/download/community?project=Spring.NET%20Visual%20Studio%202010%20Extension&quot; target=&quot;_new&quot;&gt;Download&lt;/a&gt;
+| &lt;a href=&quot;http://www.vmware.com/support/services/developer.html&quot; target=&quot;_new&quot;&gt;Support&lt;/a&gt; | &lt;a href=&quot;http://www.springframework.net/vsnet/doc-latest/reference/html/&quot; target=&quot;_new&quot;&gt;Documentation&lt;/a&gt;
+|&amp;nbsp;&lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_new&quot;&gt;Community&lt;/a&gt;&lt;br&gt;
+            &lt;br&gt;
+This release of the Spring.NET Visual Studio 2010 Extension provides Intellisense support in the following areas for editing Spring XML configuration files:&lt;br/&gt;
+            &lt;ul&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Type completion&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Property name completion&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Constructor argument name completion&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Property value completion for property of type &#039;Type&#039;, &#039;Enum&#039; and &#039;Boolean&#039;&lt;/li&gt;
+			&lt;/ul&gt;
+
+&lt;br/&gt;
+In addition, this release also provides for the following enhancements to the Visual Studio 2010 XML Editor experience:&lt;br/&gt;
+            &lt;ul&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Snippets integration (inline or by menu)&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Quickinfo tooltip for properties and types&lt;/li&gt;
+			&lt;/ul&gt;            
+			
+&lt;p&gt;A brief screencast of this tool in action can be watched &lt;a href=&quot;http://maruxelo.free.fr/spring/index2.html&quot; target=&quot;_new&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;			
+
+&lt;p&gt;This project is hosted at &lt;a href=&quot;https://github.com/SpringSource/spring-net-vsnet&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, we encourage &lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_new&quot;&gt;feedback from the community&lt;/a&gt; on this and all aspects of Spring.NET!&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3087#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 07 Apr 2011 16:20:24 +0000</pubDate>
+ <dc:creator>sbohlen</dc:creator>
+ <guid isPermaLink="false">3087 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring CodeConfig for .NET 1.0.0 is now available</title>
+ <link>http://www.springsource.org/node/3086</link>
+ <description>Dear Spring Community, &lt;br&gt;
+
+We are pleased to announce that Spring CodeConfig for .NET 1.0.0 is now available.&lt;br&gt;
+
+&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20CodeConfig%20for%20.NET&quot; target=&quot;_new&quot;&gt;Download&lt;/a&gt;
+| &lt;a href=&quot;http://nuget.org/List/Packages/Spring.CodeConfig&quot; target=&quot;_new&quot;&gt;NuGet Package&lt;/a&gt; | &lt;a href=&quot;http://www.vmware.com/support/services/developer.html&quot; target=&quot;_new&quot;&gt;Support&lt;/a&gt; | &lt;a href=&quot;http://www.springframework.net/codeconfig/doc-latest/reference/html/&quot; target=&quot;_new&quot;&gt;Documentation&lt;/a&gt;
+|&amp;nbsp;&lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_new&quot;&gt;Community&lt;/a&gt;&lt;br&gt;
+
+			
+			&lt;p&gt;Note also that Spring CodeConfig for .NET is also available as &lt;a href=&quot;http://nuget.org/List/Packages/Spring.CodeConfig&quot; target=&quot;_new&quot;&gt;a NuGet Package&lt;/a&gt;.&lt;/p&gt;
+This release contains the following major features:&lt;br&gt;
+            &lt;ul&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Code-based configuration similar to the @Configuration support in Spring Java&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Declarative Assembly Scanning to detect Configuration Classes&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Support for mixing and matching Code-based and XML-based configuration metadata&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Extension Methods to support Code-Based Configuration on existing Application Contexts&lt;/li&gt;
+				&lt;li class=&quot;newslist&quot;&gt;Bootstrapping the Context configuration from either Code-First or XML-First approaches&lt;/li&gt;
+			&lt;/ul&gt;
+            
+&lt;p&gt;This project is hosted at &lt;a href=&quot;https://github.com/SpringSource/spring-net-codeconfig&quot;&gt;GitHub&lt;/a&gt; and is the first step in the process of
+expanding Spring.NET&#039;s support for non-XML-dependent configuration scenarios.
+&lt;/p&gt;
+&lt;p&gt;
+The next steps for this project include the following:
+&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li class=&quot;newslist&quot;&gt;Definition of additional elements such as Aspects and ValueResolvers&lt;/li&gt;
+		&lt;li class=&quot;newslist&quot;&gt;Convention/Rule-based Object Definitions, Registrations, Aspects, PointCuts, and JoinPoints&lt;/li&gt;
+		&lt;li class=&quot;newslist&quot;&gt;Fluent Object Definition API&lt;/li&gt;
+	&lt;/ul&gt;
+
+	&lt;p&gt;As always, we encourage &lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_new&quot;&gt;feedback from the community&lt;/a&gt; on this and all aspects of Spring.NET!&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3086#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 07 Apr 2011 16:18:57 +0000</pubDate>
+ <dc:creator>sbohlen</dc:creator>
+ <guid isPermaLink="false">3086 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Basic Spring.NET 1.3.1 packages are now available via the NuGet Package Management System</title>
+ <link>http://www.springsource.org/node/3085</link>
+ <description>&lt;p&gt;Dear Spring Community, &lt;/p&gt;
+&lt;p&gt;We are pleased to announce that the initial basic Spring.NET 1.3.1 packages are now available via &lt;a href=&quot;http://nuget.org&quot; target=&quot;_new&quot;&gt;the NuGet Package Management System&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The following Packages are now available:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;newslist&quot;&gt;&lt;a href=&quot;http://nuget.org/List/Packages/Spring.Core&quot; target=&quot;_new&quot;&gt;Spring.Core&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;&lt;a href=&quot;http://nuget.org/List/Packages/Spring.Aop&quot; target=&quot;_new&quot;&gt;Spring.Aop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have also made the corresponding DEBUG builds of these same packages available on NuGet as well.  Since NuGet does not inherently support (yet!) a single package containing both RELEASE and DEBUG builds of a single logical package, we are following the convention of appending the RELEASE package name with the &quot;.Debug&quot; suffix as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;newslist&quot;&gt;&lt;a href=&quot;http://nuget.org/List/Packages/Spring.Core.Debug&quot; target=&quot;_new&quot;&gt;Spring.Core.Debug&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;&lt;a href=&quot;http://nuget.org/List/Packages/Spring.Aop.Debug&quot; target=&quot;_new&quot;&gt;Spring.Aop.Debug&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is merely the initial step in making all of the Spring.NET Framework available in NuGet.  Coming soon will be packages for the following additional higher-level components of the Spring.NET Framework as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;newslist&quot;&gt;Spring.Data&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;Spring.Data.NHibernate&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;Spring.Scheduling&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;Spring.Messaging&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;Spring.Web&lt;/li&gt;
+&lt;li class=&quot;newslist&quot;&gt;...and more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This packaging approach will permit users to download and consume the components of the overall Spring.NET Framework as they need them, increasing the granularity of our distribution process for those that wish to download the Spring.NET Framework incrementally rather than all at once.&lt;/p&gt;
+&lt;p&gt;As always, &lt;a href=&quot;http://www.springframework.net/download.html&quot; target=&quot;_new&quot;&gt;the complete Spring.NET Framework download(s)&lt;/a&gt; will continue to be made available for those that prefer the more comprehensive single-download of the complete release or aren&#039;t ready to adopt NuGet as a package manager as of yet.&lt;/p&gt;
+&lt;p&gt;Please direct all feedback you have from your experiences using these packages to &lt;a href=&quot;http://forum.springframework.net/&quot; target=&quot;_new&quot;&gt;the Spring.NET Community Forum&lt;/a&gt;.  We look forward to your feedback as we explore the benefits of this new additional method of distributing Spring.NET to the community.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3085#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 07 Apr 2011 16:10:43 +0000</pubDate>
+ <dc:creator>sbohlen</dc:creator>
+ <guid isPermaLink="false">3085 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>

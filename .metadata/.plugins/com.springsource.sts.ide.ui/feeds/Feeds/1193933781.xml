@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>SpringSource Team Blog</title>
+	
+	<link>http://blog.springsource.com</link>
+	<description>The voice of SpringSource</description>
+	<lastBuildDate>Sat, 16 Apr 2011 15:16:40 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/SpringSourceTeamBlog" /><feedburner:info uri="springsourceteamblog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Using Cloud Foundry from STS</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/IRLvP7mYHG8/</link>
+		<comments>http://blog.springsource.com/2011/04/13/using-cloud-foundry-from-sts/#comments</comments>
+		<pubDate>Wed, 13 Apr 2011 10:00:02 +0000</pubDate>
+		<dc:creator>Christian Dupuis</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[VMware]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8559</guid>
+		<description>By now you probably heard about Cloud Foundry, the open PaaS from VMware that was announced yesterday; if not make sure to check out the recording of the webcast. Eventually you have already read earlier blog posts introducing the Spring support for Cloud Foundry, the add-on for Spring Roo and the Grails plug-in. With this [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/IRLvP7mYHG8" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/13/using-cloud-foundry-from-sts/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/13/using-cloud-foundry-from-sts/</feedburner:origLink></item>
+		<item>
+		<title>One-step deployment with Grails and Cloud Foundry</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/9iAZP39TwXA/</link>
+		<comments>http://blog.springsource.com/2011/04/12/one-step-deployment-with-grails-and-cloud-foundry/#comments</comments>
+		<pubDate>Tue, 12 Apr 2011 20:30:10 +0000</pubDate>
+		<dc:creator>Peter Ledbrook</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Groovy/Grails]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8444</guid>
+		<description>A couple of years back, the co-founder of a startup spoke at the London Groovy and Grails User Group. I remember vividly how he said he dreamed of deploying a Grails application with &amp;#034;just one click&amp;#034;. With the announcement of the new Cloud Foundry service, his dream is nearly a reality for all Grails users. [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/9iAZP39TwXA" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/12/one-step-deployment-with-grails-and-cloud-foundry/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/12/one-step-deployment-with-grails-and-cloud-foundry/</feedburner:origLink></item>
+		<item>
+		<title>Roo + Cloud Foundry = Productivity in the Cloud</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/T_RjP3n6f8k/</link>
+		<comments>http://blog.springsource.com/2011/04/12/roo-cloud-foundry-productivity-in-the-cloud/#comments</comments>
+		<pubDate>Tue, 12 Apr 2011 19:48:39 +0000</pubDate>
+		<dc:creator>James Tyrrell</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Roo]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8462</guid>
+		<description>Today marks an important day for developers, with the public beta release of Cloud Foundry, VMware’s open source Platform as a Service offering. Rod Johnson’s blog contains a lot of background details about this exciting announcement, and Mark Fisher’s post offers a first look at the service and how easily applications can move between a [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/T_RjP3n6f8k" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/12/roo-cloud-foundry-productivity-in-the-cloud/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/12/roo-cloud-foundry-productivity-in-the-cloud/</feedburner:origLink></item>
+		<item>
+		<title>Cloud Foundry for Spring Developers</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/JSxmbSsQqX0/</link>
+		<comments>http://blog.springsource.com/2011/04/12/cloud-foundry-for-spring-developers/#comments</comments>
+		<pubDate>Tue, 12 Apr 2011 18:23:36 +0000</pubDate>
+		<dc:creator>Mark Fisher</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8393</guid>
+		<description>By now, many of you have probably seen the Cloud Foundry webinar and Rod&amp;#039;s blog from earlier today. I&amp;#039;d like to provide a quick follow-up that features a &amp;#034;hello-spring&amp;#034; sample application deployed in the cloud. Thanks to Cloud Foundry, there&amp;#039;s practically no learning curve at all. Before we get started, let&amp;#039;s consider three goals that [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/JSxmbSsQqX0" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/12/cloud-foundry-for-spring-developers/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/12/cloud-foundry-for-spring-developers/</feedburner:origLink></item>
+		<item>
+		<title>Launching Cloud Foundry, The Industry’s First Open PaaS</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/E-okPZzM9Gc/</link>
+		<comments>http://blog.springsource.com/2011/04/12/launching-cloud-foundry/#comments</comments>
+		<pubDate>Tue, 12 Apr 2011 16:00:28 +0000</pubDate>
+		<dc:creator>Rod Johnson</dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[VMware]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8380</guid>
+		<description>Today, we have exciting news for developers: the launch of Cloud Foundry: an open source “Platform as a Service” (PaaS) from VMware allowing easy deployment of applications written using Spring, Rails and other modern frameworks. Cloud Foundry breaks new ground in PaaS through supporting a choice of programming models; a choice of services from VMware [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/E-okPZzM9Gc" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/12/launching-cloud-foundry/feed/</wfw:commentRss>
+		<slash:comments>22</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/12/launching-cloud-foundry/</feedburner:origLink></item>
+		<item>
+		<title>Routing Topologies for Performance and Scalability with RabbitMQ</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/SK0Qe1vid-Q/</link>
+		<comments>http://blog.springsource.com/2011/04/01/routing-topologies-for-performance-and-scalability-with-rabbitmq/#comments</comments>
+		<pubDate>Fri, 01 Apr 2011 17:43:38 +0000</pubDate>
+		<dc:creator>Helena Edelson</dc:creator>
+				<category><![CDATA[AMQP]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Enterprise Integration]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Binding Patterns]]></category>
+		<category><![CDATA[Decoupling]]></category>
+		<category><![CDATA[Erlang]]></category>
+		<category><![CDATA[Messaging]]></category>
+		<category><![CDATA[performance]]></category>
+		<category><![CDATA[RabbitMQ]]></category>
+		<category><![CDATA[Routing Topologies]]></category>
+		<category><![CDATA[Scalability]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8289</guid>
+		<description>Designing a good routing topology for a highly-scalable system can be like mapping a graph. Many things need to be considered, for instance the problem, constraints of the environment, those of the messaging implementation, and performance strategies. What we often run up against is a lack of flexibility and expressivity in fitting routing to our [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/SK0Qe1vid-Q" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/04/01/routing-topologies-for-performance-and-scalability-with-rabbitmq/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/04/01/routing-topologies-for-performance-and-scalability-with-rabbitmq/</feedburner:origLink></item>
+		<item>
+		<title>Early Access: SpringSource Tool Suite for Eclipse Indigo (3.7)</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/Z-LsNNXnrko/</link>
+		<comments>http://blog.springsource.com/2011/03/25/early-access-springsource-tool-suite-for-eclipse-indigo-3-7/#comments</comments>
+		<pubDate>Fri, 25 Mar 2011 08:37:38 +0000</pubDate>
+		<dc:creator>Martin Lippert</dc:creator>
+				<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Tools]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8278</guid>
+		<description>The Eclipse Indigo (3.7) M6a packages are available for download from Eclipse since a few days, so its time for us to allow you to use the SpringSource Tool Suite (STS) on top of that milestone version. Its just an early access version of STS, but we managed to get all the pieces together for [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/Z-LsNNXnrko" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/03/25/early-access-springsource-tool-suite-for-eclipse-indigo-3-7/feed/</wfw:commentRss>
+		<slash:comments>17</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/03/25/early-access-springsource-tool-suite-for-eclipse-indigo-3-7/</feedburner:origLink></item>
+		<item>
+		<title>Extending Spring Social's Service Provider Framework</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/Id_hVaf8kSg/</link>
+		<comments>http://blog.springsource.com/2011/03/10/extending-spring-socials-service-provider-framework/#comments</comments>
+		<pubDate>Thu, 10 Mar 2011 21:41:32 +0000</pubDate>
+		<dc:creator>Craig Walls</dc:creator>
+				<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8042</guid>
+		<description>Last week, I introduced you to Spring Social&amp;#039;s Service Provider &amp;#034;Connect&amp;#034; Framework and showed you how it simplifies creating connections between a user&amp;#039;s local application account and their accounts on Software-as-a-Service (SaaS) providers. Today I want to show you how to extend the service provider framework to handle connections to providers that aren&amp;#039;t directly supported [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/Id_hVaf8kSg" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/03/10/extending-spring-socials-service-provider-framework/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/03/10/extending-spring-socials-service-provider-framework/</feedburner:origLink></item>
+		<item>
+		<title>Addressing a Big New Audience: VMware Acquires WaveMaker</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/pxbguyNdNXc/</link>
+		<comments>http://blog.springsource.com/2011/03/08/vmware-acquires-wavemaker/#comments</comments>
+		<pubDate>Tue, 08 Mar 2011 16:59:47 +0000</pubDate>
+		<dc:creator>Rod Johnson</dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[SpringSource]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[VMware]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8163</guid>
+		<description>Today, VMware announces with this blog the acquisition of WaveMaker, a widely used graphical tool that enables non-expert developers to build web applications quickly.  While WaveMaker is already part of the Spring ecosystem, it will now become an integral part of the Spring family and VMware’s cloud strategy. All of WaveMaker’s staff will be joining [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/pxbguyNdNXc" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/03/08/vmware-acquires-wavemaker/feed/</wfw:commentRss>
+		<slash:comments>55</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/03/08/vmware-acquires-wavemaker/</feedburner:origLink></item>
+		<item>
+		<title>Introducing Spring Social's Service Provider Framework</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/nATpno3Bc3c/</link>
+		<comments>http://blog.springsource.com/2011/03/02/introducing-spring-socials-service-provider-framework/#comments</comments>
+		<pubDate>Wed, 02 Mar 2011 22:20:29 +0000</pubDate>
+		<dc:creator>Craig Walls</dc:creator>
+				<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=8047</guid>
+		<description>In my previous post, I introduced you to Spring Social&amp;#039;s Java bindings to popular Software-as-a-Service (SaaS) APIs such as Twitter, Facebook, LinkedIn, and TripIt. In addition to providing simple, strongly-typed Java methods for common API operations, these bindings ensure each HTTP request includes the credentials required to authorize your application to invoke the API on [...]&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/nATpno3Bc3c" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.com/2011/03/02/introducing-spring-socials-service-provider-framework/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		<feedburner:origLink>http://blog.springsource.com/2011/03/02/introducing-spring-socials-service-provider-framework/</feedburner:origLink></item>
+	</channel>
+</rss>
